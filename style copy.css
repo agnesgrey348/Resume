@@ -1,0 +1,112 @@
+body{
+    background-color: #ECF4F3;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1;
+    position: sticky;
+}
+
+.gauche{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1;
+    position: sticky;
+ }
+ .rond{
+    background-color: #e6e6e6;
+    position: absolute;
+    left:39px;
+    top: 150px;
+    z-index: 4;
+    border-radius:20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+
+
+.incrustphoto{
+    position: absolute;
+    z-index: 4;  
+}
+
+#photoprofil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 8px solid #e6e6e6;
+    background-color: #66BFBF;
+}
+
+.badgenom{
+    position: sticky;
+    background-color: #66BFBF;
+    z-index: 2;
+    text-align: center;
+    height: 100%;
+    width: 85%;
+    
+   
+}
+
+
+.contact{
+    position:sticky;
+}
+
+
+.langage{
+    position: sticky;
+}
+.rubrique{
+    background-color: #66BFBF;
+}
+
+h1,h2{
+    color: #080808;
+    
+}
+
+h4{
+    color: #66BFBF;
+}
+
+.cellule{
+    border: 1px solid #66BFBF;
+}
+
+
+
+.photonom{
+    position: sticky;
+}
+
+
+.progress{
+    
+    border-radius: 15px;
+    color: #66BFBF;
+    height: 5px;
+}
+
+
+
+.hobbies{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+
